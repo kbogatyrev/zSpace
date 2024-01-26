@@ -7,20 +7,21 @@ Ubuntu 20.04. I was unable to create a MacOS build.
 The easiest way to build the project is using Visual Studio: just open this folder and follow 
 the prompts. To build from a command line (assuming Windows build environment with cmake):
 
--- cd to this directory: 
-cd GameOfLife
+-- cd to this directory:
+>cd GameOfLife
 
--- create the build directory: 
-mkdir build
+-- create the build directory:  
+>mkdir build
 
--- cd to the build directory: 
-cd build
+-- cd to the build directory:  
+>cd build
 
--- configure the build: 
-cmake ..
+-- configure the build:  
+>cmake ..
 
--- build the executable:
-cmake --build . --config Release 
+-- build the executable: 
+>cmake --build . --config Release
+
 (or "...config Debug" for debug builds) 
 
 The Windows executable gol.exe will be in the build\Release or (build\Debug) directory.
